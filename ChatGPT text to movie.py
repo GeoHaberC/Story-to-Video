@@ -233,7 +233,7 @@ def main(story_file):
 		print(f"\n{cnt} Line {line} -> {image_file}")
 
 		## XXX:  Generate and download image # XXX:
-#		image_file = generate_and_download_image(line, image_file , output_dir)
+		image_file = generate_and_download_image(line, image_file , output_dir)
 		images.append(image_file)
 
 		# Generate audio measure duration
