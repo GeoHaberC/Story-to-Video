@@ -1,6 +1,5 @@
 # Story-to-Video
-Create a Movie animation plus audio plus Subtitle from text
-Text to Video Generator
+Create a Movie "animation" vith audio and Subtitle from text: Story to Video Generator
 
 This program generates a video from text using OpenAI's ChatGPT to create a sequence of images and gTTS (Google Text-to-Speech) to produce audio. The images and audio are then combined to create the final video.
 
@@ -9,11 +8,11 @@ This program generates a video from text using OpenAI's ChatGPT to create a sequ
 - Ensure you have Python 3.6 or higher installed on your system.
 - Install the required libraries by running the following command in your terminal or command prompt:
 
-pip install openai requests gtts pydub scikit-image pillow numpy psutil
+     pip install openai requests gtts pydub scikit-image pillow numpy psutil
 
 - Install FFmpeg, which is used for video processing. Visit the official FFmpeg website for installation instructions for your specific operating system.
 
-https://ffmpeg.org/download.html
+     https://ffmpeg.org/download.html
 
 2) Usage
 
